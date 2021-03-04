@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="portfolio">
+
+    <!-- header始まり -->
+    <header>
+        <div class="logo">
+            <a href="portfolio.html"><img src="images/logo1.gif" alt="Portfolio"></a>
+        </div>
+        <nav>
+            <ul class="global-nav">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="menu">
+            <div class="menu__item"><a href="portfolio.html">Portfolio</a></div>
+            <div class="menu__item"><a href="about.html">About</a></div>
+            <div class="menu__item"><a href="contact.html">Contact</a></div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="prev"></div>
+        <div class="sliderbox">
+            <ul class="sliderlist">
+                <a href="about.html">
+                    <li class="sliderlist__item sliderlist__item1"></li>
+                </a>
+                <a href="contact.html">
+                    <li class="sliderlist__item sliderlist__item2"></li>
+                </a>
+                <a href="portfolio.html">
+                    <li class="sliderlist__item sliderlist__item3"></li>
+                </a>
+            </ul>
+        </div>
+        <div class="next"></div>
+    </div>
+
+
+    <!-- wrap始まり -->
+    <div id="wrap">
+        <div class="content">
+            <div class="main-center">
+                <h1>About</h1>
+                <p>鈴木良輔のプロフィールや経歴の紹介ページです。</p>
+                <section class="profile clearfix">
+                    <div class="profile-txt">
+                        <h2 class="icon">Profile</h2>
+                        <p>
+                            <span>鈴木良輔</span><br>webページを観覧するのが好きでweb関連の仕事につくことを目標にしています<br>Rubyを独学で学び就職しましたがReact+Reduxで挫折してしまいました。<br>現在は、Javascriptを勉強を１から学びなおしています。
+                        </p>
+                    </div>
+
+                </section>
+                <section class="career">
+                    <h2 class="icon">Career and Job history</h2>
+                    <table>
+                        <tr>
+                            <th>2012年3月</th>
+                            <td>大東文化大学中退</td>
+                        </tr>
+                        <tr>
+                            <th>2012年3月</th>
+                            <td>ビデオ安売王谷塚店アルバイト勤務</td>
+                        </tr>
+                        <tr>
+                            <th>2016年8月</th>
+                            <td>TOHOシネマズアルバイト勤務</td>
+                        </tr>
+                        <tr>
+                            <th>2018年1月</th>
+                            <td>株式会社BCN　勤務</td>
+                        </tr>
+                        <tr>
+                            <th>2020年9月</th>
+                            <td>株式会社CoLabMix勤務</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <small>2021 Ryosuke Suzuki.</small>
+    </footer>
+    <script src="./portfolio.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
